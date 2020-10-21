@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/chk_married"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否结婚"
+        android:textSize="40dp"
+        />
+
+<!--    <fragment-->
+<!--        android:id="@+id/fragment_bottom"-->
+<!--        android:name="com.example.mylistfragment.BottomFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:tag="fragment_bottom_tag"/>-->
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_container"
+        android:layout_gravity="bottom"
+        android:tag="fragment_bottom_tag"/>
+
+</LinearLayout>
